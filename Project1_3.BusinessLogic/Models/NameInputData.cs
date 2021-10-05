@@ -8,11 +8,11 @@ namespace Project1_3.BusinessLogic.Models
 {
     public class NameInputData
     {
-        public NameInputData(string defaultName)
-        {
-            DefaultName = defaultName;
-        }
+      public NameInputData(string defaultName)
+      {
+          DefaultName = defaultName;
+      }
 
-        public string DefaultName { get; }
+      public string DefaultName { get; }
     }
 }
